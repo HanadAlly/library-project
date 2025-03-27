@@ -12,3 +12,7 @@ You can see ratings of books previous people read and their description,
 you can also add a book you liked and put  its cover picture url and rate it aswell,
 Click submit to see your book appear there.
 
+### Technologies Used
+HTML,
+CSS,
+JavaScript.
