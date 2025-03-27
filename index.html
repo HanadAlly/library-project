@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibSys</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div id="book-list">
+        <h1>Library System</h1>
+        <div id="book-list-body">
+            <div class="book">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg" alt="">
+                <h3>Book Title</h3>
+                <p>Author</p>
+                <p>Publisher</p>
+                <button>Details</button>
+            </div>
+        </div>
+     </div>
+     <div id="book-list">
+        <img src=" https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1650033243i/41733839.jpg" alt="">
+        <img src=" https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg" alt="">
+        <img src=" https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F58015557&psig=AOvVaw3VYLY9Il9FR895PkFc_U2O&ust=1742986773983000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOiE_fOJpYwDFQAAAAAdAAAAABAE" alt="">
+        <img src=" https://m.media-amazon.com/images/I/712P0p5cXIL._AC_UF1000,1000_QL80_.jpg" alt="">
+     </div>
+    <div id="detail-view" class="hidden">
+        <span id="close-detail-view">&times;</span>
+        <img id="detail-image" src="" alt="">
+        <h2 id="detail-name"></h2>
+        <p id="detail-author"></p>
+        <p id="detail-publisher"></p>
+        <p id="detail-description"></p>
+    </div>
+
+    <form id="new-book-form">
+        <h2>Add a New Book</h2>
+        <label for="new-name">Book Title:</label>
+        <input type="text" id="new-name" name="new-name" required>
+        <label for="new-author">Author:</label>
+        <input type="text" id="new-author" name="new-author" required>
+        <label for="new-image">Image URL:</label>
+        <input type="text" id="new-image" name="new-image" required>
+        <label for="new-publisher">Publisher:</label>
+        <input type="text" id="new-publisher" name="new-publisher" required>
+        <label for="new-description">Description:</label>
+        <input type="text" id="new-description" name="new-description" required>
+        <button type="submit">Add Book</button>
+    </form>
+   
+    <script src="./js/script.js"></script>
+</body>
+</html>
