@@ -6,9 +6,9 @@ The LibSys is a web application that helps readers with different tastes in our 
 Ali Mohammed
 
 ### Setup Instructions
-Clone this repository
-Open index.html in your web browser
-You can see ratings of books previous people read and their description
-you can also add a book you liked and put  its cover picture url and rate it aswell
+Clone this repository,
+Open index.html in your web browser,
+You can see ratings of books previous people read and their description,
+you can also add a book you liked and put  its cover picture url and rate it aswell,
 Click submit to see your book appear there.
 
