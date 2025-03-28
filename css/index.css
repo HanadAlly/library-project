@@ -1,79 +1,73 @@
+ /* css/styles.css */
 body {
     font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: burlywood;
-        }
-#book-list {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+#book-menu {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     height: auto;
-    margin: 1 rem 0;
-     padding: 0%;
-        }
- #book-list-body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            height: auto;
-            margin: 1 rem 0;
-            padding: 0%;
-        }
+    margin: 1rem 0;
+    padding: 0%;
+}
 
-#book img {
-       width: 200px;
-        height: 200px;
-        margin: 0.5 rem;
-        padding: 0%;
-        object-fit: cover;
-        border: 2px solid black;
-} 
-#detail-view {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: auto;
-            width: 20%;
-            height: 100%;
-        }
-#detail-view img {
-            width: 100%;
-            height: 100%;
-        }
+#book-menu img {
+    width: 200px;
+    height: 200px;
+    margin: 0.5rem;
+    padding: 0%;
+    object-fit: cover;
+    border: 2px solid black;
+}
 
-#new-book-form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: auto;
-            width: 20%;
-            height: 100%;
+#book-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
 
-        }
 form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: auto;
-            width: 20%;
-            height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 20%;
+    height: 100%;
+}
 
-        }
- form input,textarea {
-            margin: 10px;
-            padding: 5px;
-            width: 80%;
-            border: 1px solid black;
-        }
+form input, textarea {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border: 1px solid black;
+}
+
 form button {
-            margin: 10px;
-            padding: 5px;
-            width: 80%;
-            cursor: pointer;
-            background-color: black;
-            color: tan;
-            border: none; 
-}  
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    cursor: pointer;
+    background-color: black;
+    color: tan;
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: tan;
+    padding: 10px;
+    width: 20%;
+    margin: auto;
+}

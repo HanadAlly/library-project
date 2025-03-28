@@ -1,0 +1,46 @@
+  [
+    {
+      "name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1650033243i/41733839.jpg",
+      "publisher": "Charles Scribner's Sons",
+      "description": "A novel about wealth, love, and the American Dream in the Jazz Age."
+    },
+    {
+      "name": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg",
+      "publisher": "J. B. Lippincott & Co.",
+      "description": "A story of racial injustice and childhood innocence in the American South."
+    },
+    {
+      "name": "1984",
+      "author": "George Orwell",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F58015557&psig=AOvVaw3VYLY9Il9FR895PkFc_U2O&ust=1742986773983000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOiE_fOJpYwDFQAAAAAdAAAAABAE",
+      "publisher": "Secker & Warburg",
+      "description": "A dystopian novel about totalitarianism and surveillance."
+    },
+    {
+      "name": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://m.media-amazon.com/images/I/712P0p5cXIL._AC_UF1000,1000_QL80_.jpg",
+      "publisher": "T. Egerton",
+      "description": "A romantic novel about love, class, and society in 19th-century England."
+    }
+  ]
+[
+    {
+        "name": "Moby Dick",
+        "author": "Herman Melville",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Moby-Dick_FE_title_page.jpg",
+        "publisher": "Harper & Brothers",
+        "description": "A novel about the voyage of the whaling ship Pequod."
+    },
+    {
+        "name": "War and Peace",
+        "author": "Leo Tolstoy",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/War-and-Peace_1st-edition_1869.jpg",
+        "publisher": "The Russian Messenger",
+        "description": "A historical novel that chronicles the French invasion of Russia."
+    }
+]
